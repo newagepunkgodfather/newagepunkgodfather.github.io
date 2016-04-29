@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <head>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="res/css/main.css">
+    </head>
+    <body>
+       <header>
+           <div class="wrapper">
+               <nav>
+                   <ul class="nav linear">
+                       <li><a>News</a></li>
+                       <li><a>Connect</a></li>
+                       <li><a>Money</a></li>
+                       <li><a>Resources</a></li>
+                       <li><a>Me</a></li>
+                   </ul>
+                   <div class="clear"></div>
+               </nav>
+           </div>
+       </header>
+       <section class="hero">
+           <div class="wrapper">
+             <h2 class="logo">leef.</h2>  
+             <p class="motto">Better for your home, your heart, and your wallet.</p>
+           </div>
+       </section>
+       <main>
+           <div class="wrapper">
+               
+           </div>
+       </main>
+       <footer>
+           <div class="wrapper">
+               <p class="copyright">(c) 2016 leef.</p>
+           </div>
+       </footer>
+    </body>
+</html>
