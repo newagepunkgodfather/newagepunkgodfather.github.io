@@ -1,41 +1,28 @@
-<!doctype html>
-<html>
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <head>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="res/css/main.css">
-    </head>
-    <body>
-       <header>
-           <div class="wrapper">
-               <nav>
-                   <ul class="nav linear">
-                       <li><a>News</a></li>
-                       <li><a>Connect</a></li>
-                       <li><a>Money</a></li>
-                       <li><a>Resources</a></li>
-                       <li><a>Me</a></li>
-                   </ul>
-                   <div class="clear"></div>
-               </nav>
-           </div>
-       </header>
-       <section class="hero">
-           <div class="wrapper">
-             <h2 class="logo">leef.</h2>  
-             <p class="motto">Better for your home, your heart, and your wallet.</p>
-           </div>
-       </section>
-       <main>
-           <div class="wrapper">
-               
-           </div>
-       </main>
-       <footer>
-           <div class="wrapper">
-               <p class="copyright">(c) 2016 leef.</p>
-           </div>
-       </footer>
-    </body>
-</html>
+html{font-family: 'Poiret One', cursive;}body{margin:0}article,aside,details,
+figcaption,figure,footer,header,main,
+menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}template,
+[hidden]{display:none}a{background-color:transparent}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input,
+select{overflow:visible}button,select{text-transform:none}button,html [type="button"],/* 1 */
+[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button:-moz-focusring,input:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+body{
+   
+    font-family: 'Poiret One', cursive;
+    font-size: 16px; 
+}
+.hero{
+    background-color: #81EB68;
+    padding: 3rem 0;
+}
+.clear {
+    clear: both;
+}
+.logo{
+    text-align: center;
+    font-size: 55px;
+    margin: 0 auto;
+}
+.motto{
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 20px;
+}
